@@ -1,0 +1,5 @@
+node_modules
+server.log*
+server-alive.txt
+*.command
+*.bat

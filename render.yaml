@@ -1,0 +1,21 @@
+# Render Blueprint: Dashboard → New → Blueprint → этот репозиторий.
+# Регион Frankfurt — Gemini Live API оттуда работает (из России нет).
+services:
+  - type: web
+    name: live-uz-ru
+    runtime: docker
+    plan: free
+    region: frankfurt
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: OPEN_BROWSER
+        value: "0"
+      - key: MAX_RELAYS
+        value: "3"
+      - key: ACCESS_CODE
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false

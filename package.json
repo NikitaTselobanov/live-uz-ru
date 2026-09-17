@@ -1,0 +1,10 @@
+{
+  "name": "live-uz-ru",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Живой перевод лекций с узбекского на русский: голос + субтитры (Gemini Live API)",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "ws": "^8.18.0" }
+}

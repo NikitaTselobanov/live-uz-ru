@@ -1,0 +1,6 @@
+node_modules/
+server.log*
+server-alive.txt
+# в этих файлах лежит ключ — в репозиторий им нельзя
+ЗАПУСТИТЬ.command
+ЗАПУСТИТЬ-Windows.bat
